@@ -41,10 +41,10 @@ Try the following:
 
 === Making a TAP parser run (test harness) in C ===
 * In '''./picotap''', type:
- make tap
+ make ptap
 * Execute the test via the tap parser
- ./tap /PATH/TO/test.exe
-* '''tap''' will open a pipe to '''test.exe''', reading its stdout and parse it
+ ./ptap /PATH/TO/test.exe
+* '''ptap''' will open a pipe to '''test.exe''', reading its stdout and parse it
 * For output to stdout not part of the test plan results
 ** Prefix with a '''space''', '''tab''', or '''#'''
 
