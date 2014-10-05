@@ -1,0 +1,19 @@
+0.0.3 - Removed DOS support.  May revisit that later.
+        Removed JS support.  I'll repost that as different repo
+        later.
+        Added better Makefile.
+
+0.0.2 - Added DOS Support via OpenWatcom.  Added popen/pclose from
+        Diomidis Spinellis (C) 1988, 1990.  Implemented tempnam,
+        unlink to support popen/pclose.  Moved C time capture code
+        to taptime becuase OpenWatcom only supports using the POSIX
+        2001 and deprecated ftime to get msec accurate clock time.
+        Implementing this for OpenWatcom kinda sucked.  So close, yet
+        so broken a libc.  Use mkwcc.bat to compile.  Micro-C 3.23,
+        TurboC 2.01, and BorlandC 5.02 will likely be next to see
+        adaptations of the OpenWatcom code.
+
+0.0.1 - Initial release support POSIX 2008 like environments on
+        GCC/clang/LLVM on Linux, OSX.  Also supports JavaScript
+        TAP producers and consumers, in the browser (console.log)
+        and on the server/cli via OneMonkey (not yet available).
