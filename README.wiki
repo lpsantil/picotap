@@ -1,6 +1,6 @@
 = picotap - A tiny TAP generator library and TAP parser in C for Linux, OSX =
 
-== Version 0.0.2 ==
+== Version 0.0.3 ==
 
 == Date: 2014-10-04 ==
 
