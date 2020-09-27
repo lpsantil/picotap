@@ -30,7 +30,7 @@ Try the following:
 `ok( condition, "Info about the test" );`
 * `condition` can be any expression that resolves to `true`/`false`
 * For output to stdout not part of the test plan results
-** Prefix with a `space`, `tab`, or `#`
+  * Prefix with a `space`, `tab`, or `#`
 * Compile your test code by including the path to `tap.h` and linking to `libptap.a`
 `cc test.c -I./picotap -L. -lptap -o test.exe`
 * See the `picotap/Examples` directory and the `make examples` command in `picotap/Makefile`
@@ -42,4 +42,4 @@ Try the following:
 `./ptap /PATH/TO/test.exe`
 * `ptap` will open a pipe to `test.exe`, reading its `stdout` and parse it
 * For output to stdout not part of the test plan results
-** Prefix with a `space`, `tab`, or `#`
+  * Prefix with a `space`, `tab`, or `#`
