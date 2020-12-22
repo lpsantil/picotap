@@ -34,7 +34,7 @@ Try the following:
   * Prefix with a `space`, `tab`, or `#`
 * Compile your test code by including the path to `tap.h` and linking to `libptap.a`
 `cc test.c -I./picotap -L. -lptap -o test.exe`
-* See the `picotap/Examples` directory and the `make examples` command in `picotap/Makefile`
+* See the `picotap/t` directory and the `make tests` command in `picotap/Makefile`
 
 ## Making a TAP parser run (test harness) in C
 * In `./picotap`, type:
