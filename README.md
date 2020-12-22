@@ -12,13 +12,14 @@ If you get stuck in Linux or OSX, try typing `make help` or looking at the Examp
 
 ## Building
 Try the following:
-* make
-* make libtap
-* make ptap
-* make install
-* make tests
-* make runtest
-* make runtap
+* `make`
+* `make help`
+* `make libtap`
+* `make ptap`
+* `make install`
+* `make tests`
+* `make runtest`
+* `make runtap`
 
 # Examples
 ## Making a TAP generator (a test) in C
@@ -35,7 +36,7 @@ Try the following:
 `cc test.c -I./picotap -L. -lptap -o test.exe`
 * See the `picotap/Examples` directory and the `make examples` command in `picotap/Makefile`
 
-# Making a TAP parser run (test harness) in C
+## Making a TAP parser run (test harness) in C
 * In `./picotap`, type:
 `make ptap`
 * Execute the test via the tap parser
