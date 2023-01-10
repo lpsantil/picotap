@@ -23,7 +23,7 @@ Try the following:
 
 # Examples
 ## Making a TAP generator (a test) in C
-* In `./picotap`, type: `make libtap`
+* In `picotap/`, type: `make libtap`
 * Include `tap.h` into your test file
 * Start your test source with
 `plan( 10 ); // If your test plan includes 10 tests`
@@ -37,7 +37,7 @@ Try the following:
 * See the `picotap/t` directory and the `make tests` command in `picotap/Makefile`
 
 ## Making a TAP parser run (test harness) in C
-* In `./picotap`, type:
+* In `picotap/`, type:
 `make ptap`
 * Execute the test via the tap parser
 `./ptap /PATH/TO/test.exe`
